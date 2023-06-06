@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="coracao.ico">
+    <title>Treinando flexibilidade</title>
+</head>
+<body>
+    <h1>Testando a flexibilidade do site com outras imagens</h1>
+    <p>A seguir as imagens vão aumentar e diminuir conforme a largura suportada do seu dispositivo!</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens2/gato-p.png" sizes="300x300">
+        <source media="(max-width:1100px)" srcset="imagens2/gato-m.png" sizes="700x700">
+        <img src="imagens2/gato-g.png" alt="gato-g">
+    </picture>
+</body>
+</html>

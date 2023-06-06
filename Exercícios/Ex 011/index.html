@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="coracao.ico">
+    <title>Treinando flexibilidade</title>
+</head>
+<body>
+    <h1>Testando funcionalidade de tamanho com imagens</h1>
+    <p>A seguir o treinamento consiste em aumentar e diminuir a imagem conforme a largura e comprimento do dispositivo direcionado.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" sizes="300x300">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" sizes="700x700">
+        <img src="imagens/foto-g.png" alt="foto-g">
+    </picture>
+
+    <audio preload="metadata" controls autoplay loop>
+
+        <source src="midia/Tyler-The-Creator-BOYFRIEND-GIRLFRIEND-2020-Demo_(thinkNews.com.ng).mp3" type="audio/mpeg">
+
+        <source src="midia/Tyler-The-Creator-BOYFRIEND-GIRLFRIEND-2020-Demo_(thinkNews.com.ng).mp3" type="audio/wav">
+
+        <source src="midia/Tyler-The-Creator-BOYFRIEND-GIRLFRIEND-2020-Demo_(thinkNews.com.ng).mp3" type="audio/ogg">
+
+        <p>Seu navegador não suporta áudio <a href="midia/Tyler-The-Creator-BOYFRIEND-GIRLFRIEND-2020-Demo_(thinkNews.com.ng).mp3" type="audio/mpeg"></a></p>
+
+    </audio>
+
+    <audio preload="metadata" autoplay controls loop >
+
+        <source src="midia/S3E4_-_Churrasco_delicioso_Delicious_Barbecue.mp3" type="audio/mpeg">
+
+        <source src="midia/S3E4_-_Churrasco_delicioso_Delicious_Barbecue.mp3" type="audio/ogg">
+
+        <source src="midia/S3E4_-_Churrasco_delicioso_Delicious_Barbecue.mp3" type="audio/wav">
+
+        <p>Infelizmente o seu navegador não suporta áudio. <a href="midia/S3E4_-_Churrasco_delicioso_Delicious_Barbecue.mp3" type="audio/mpeg"></a></p>
+        
+    </audio>
+</body>
+</html>
