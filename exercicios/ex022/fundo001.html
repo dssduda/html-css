@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de Fundo</title>
+    <style>
+        body {
+            background-image: url(imagens2/pattern04.jpg);
+        }
+        
+        .square {
+            display: inline-block;
+            width: 450px;
+            height: 450px;
+            border: 2px solid black;
+            border-radius: 20px;
+            box-shadow: 5px 10px 0px black;
+        }
+        #q1 {
+            background-color: rgb(255, 152, 187);
+        }
+        #q2 {
+            background-image: linear-gradient(to top, rgb(145, 145, 233), blue);
+        }
+        #q3 {
+            background-image: url(imagens2/pattern03.jpg);
+        }
+    </style>
+</head>
+<body>
+        <div class="square" id="q1"></div>
+        <div class="square" id="q2"></div>
+        <div class="square" id="q3"></div>
+</body>
+</html>
