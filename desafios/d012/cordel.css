@@ -1,0 +1,39 @@
+@charset 'UFT-8';
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(Sriracha-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url(PassionOne-Bold.ttf) format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Sriracha', Helvetica, sans-serif;
+    
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: 'PassionOne';
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    
+}
+
